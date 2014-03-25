@@ -62,4 +62,4 @@ describe("Conjunto de tests para Rover", function(){
         expect(rover.posY).toEqual(0);
         expect(rover.direction).toEqual('N');
     });
-})
+});
