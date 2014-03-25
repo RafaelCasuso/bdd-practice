@@ -1,5 +1,6 @@
 <h1>Prácticas BDD</h1>
 
+[![Build Status](https://travis-ci.org/RafaelCasuso/bdd-practice.svg?branch=master)](https://travis-ci.org/RafaelCasuso/bdd-practice)
 
 <h2><strong>¿Qué es BDD?</strong></h2>
 
