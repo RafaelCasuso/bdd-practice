@@ -1,12 +1,16 @@
 {
   "name": "bdd-practice",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "BDD Practice Project",
   "author": {
     "name": "Rafael Casuso",
     "email": "rafaelcasusoromate@gmail.com"
   },
   "homepage": "http://rafaelcasuso.github.io/bdd-practice/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RafaelCasuso/bdd-practice.git"
+    },
   "devDependencies": {
     "grunt": "~0.4.4",
     "grunt-contrib-jshint": "~0.9.2",
