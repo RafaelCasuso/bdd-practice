@@ -28,15 +28,16 @@ Repetiremos este proceso tantas veces como sea necesario para acabar con las His
 <strong>Quiero</strong> Mover el Rover en cualquier dirección<br>
 <strong>De Manera Que</strong> Pueda desplazarme en él<br>
 
-<strong>Criterios de Aceptación:</strong>
-	*<strong>Escenario 1:</strong> El Rover se mueve hacia adelante
+<h3><strong>Criterios de Aceptación:</strong></h3>
+	<ul>
+	<li><strong>Escenario 1:</strong> El Rover se mueve hacia adelante</li></ul>
 		<strong>Dado</strong> Que existe el Rover
 		<strong>Y</strong> Que existe el Grid
 		<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
 		<strong>Cuando</strong> Pulso 'f'
 		<strong>Entonces</strong> El Rover avanza una casilla en el Grid
 		<strong>Y</strong> Mantiene su dirección
-	*<strong>Escenario 2:</strong> El Rover se mueve hacia atrás
+	<strong>Escenario 2:</strong> El Rover se mueve hacia atrás
 		<strong>Dado</strong> Que existe el Rover
 		<strong>Y</strong> Que existe el Grid
 		<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
