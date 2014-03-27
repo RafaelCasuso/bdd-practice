@@ -29,7 +29,7 @@ Repetiremos este proceso tantas veces como sea necesario para acabar con las His
 <strong>De Manera Que</strong> Pueda desplazarme en él<br>
 
 <h3><strong>Criterios de Aceptación:</strong></h3>
-<h3><strong>Escenario 1:</strong> El Rover se mueve hacia adelante</h3>
+<h4><strong>Escenario 1:</strong> El Rover se mueve hacia adelante</h4>
 <strong>Dado</strong> Que existe el Rover
 <strong>Y</strong> Que existe el Grid
 <strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
