@@ -29,14 +29,14 @@ Repetiremos este proceso tantas veces como sea necesario para acabar con las His
 <strong>De Manera Que</strong> Pueda desplazarme en él<br>
 
 <h3><strong>Criterios de Aceptación:</strong></h3>
-	<h3><strong>Escenario 1:</strong> El Rover se mueve hacia adelante</h3>
+	<strong>Escenario 1:</strong> El Rover se mueve hacia adelante
 		<strong>Dado</strong> Que existe el Rover
 		<strong>Y</strong> Que existe el Grid
 		<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
 		<strong>Cuando</strong> Pulso 'f'
 		<strong>Entonces</strong> El Rover avanza una casilla en el Grid
 		<strong>Y</strong> Mantiene su dirección
-	<h3><strong>Escenario 2:</strong> El Rover se mueve hacia atrás</h3>
+	<strong>Escenario 2:</strong> El Rover se mueve hacia atrás
 		<strong>Dado</strong> Que existe el Rover
 		<strong>Y</strong> Que existe el Grid
 		<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
@@ -50,20 +50,20 @@ Repetiremos este proceso tantas veces como sea necesario para acabar con las His
 		<strong>Cuando</strong> Pulso 'r'
     		<strong>Entonces</strong> El Rover cambia su dirección un punto cardinal en el sentido de las agujas del reloj.
 		<strong>Y</strong> Mantiene su posición
-	<h3><strong>Escenario 4:</strong> El Rover gira a la izquierda</h3>
+	<strong>Escenario 4:</strong> El Rover gira a la izquierda
 		<strong>Dado</strong> Que existe el Rover
 		<strong>Y</strong> Que existe el Grid
 		<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
 		<strong>Cuando</strong> Pulso 'l'
     <strong>Entonces</strong> El Rover cambia su dirección un punto cardinal en el sentido contrario al de las agujas       del reloj.
 		<strong>Y</strong> Mantiene su posición
-	<h3><strong>Escenario 5:</strong> El Rover gira a la derecha y se mueve hacia adelante</h3>
+	<strong>Escenario 5:</strong> El Rover gira a la derecha y se mueve hacia adelante
 		<strong>Dado</strong> Que existe el Rover
 		<strong>Y</strong> Que existe el Grid
 		<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
 		<strong>Cuando</strong> Pulso 'rf'
     <strong>Entonces</strong> El Rover cambia su dirección un punto cardinal en el sentido  de las agujas del reloj y       avanza una     casilla.
-	<h3><strong>Escenario 6:</strong> El Rover sobrepasa el límite del Grid en el eje Y</h3>
+	<strong>Escenario 6:</strong> El Rover sobrepasa el límite del Grid en el eje Y
 		<strong>Dado</strong> Que existe el Rover
 		<strong>Y</strong> Que existe el Grid
 		<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
