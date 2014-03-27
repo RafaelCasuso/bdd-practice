@@ -22,11 +22,11 @@ Repetiremos este proceso tantas veces como sea necesario para acabar con las His
 
 <h2><strong>Historia</strong></h2>
 
-<strong>Título:</strong> El piloto mueve el Rover
+<h3><strong>Título:</strong> El piloto mueve el Rover</h3>
 
 **Como** Piloto<br>
-<strong>Quiero</strong> Mover el Rover en cualquier dirección
-<strong>De Manera Que</strong> Pueda desplazarme en él
+<strong>Quiero</strong> Mover el Rover en cualquier dirección<br>
+<strong>De Manera Que</strong> Pueda desplazarme en él<br>
 
 <strong>Criterios de Aceptación:</strong>
 	*<strong>Escenario 1:</strong> El Rover se mueve hacia adelante
