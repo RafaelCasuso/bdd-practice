@@ -29,26 +29,26 @@ Repetiremos este proceso tantas veces como sea necesario para acabar con las His
 <strong>De Manera Que</strong> Pueda desplazarme en él<br>
 
 <h3><strong>Criterios de Aceptación:</strong></h3>
-	<strong>Escenario 1:</strong> El Rover se mueve hacia adelante
-		<strong>Dado</strong> Que existe el Rover
-		<strong>Y</strong> Que existe el Grid
-		<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
-		<strong>Cuando</strong> Pulso 'f'
-		<strong>Entonces</strong> El Rover avanza una casilla en el Grid
-		<strong>Y</strong> Mantiene su dirección
-	<strong>Escenario 2:</strong> El Rover se mueve hacia atrás
-		<strong>Dado</strong> Que existe el Rover
-		<strong>Y</strong> Que existe el Grid
-		<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
-		<strong>Cuando</strong> Pulso 'b'
-		<strong>Entonces</strong> El Rover retrocede una casilla en el Grid
-		<strong>Y</strong> Mantiene su dirección
-	<h3><strong>Escenario 3:</strong> El Rover gira a la derecha</h3>
-		<strong>Dado</strong> Que existe el Rover
-		<strong>Y</strong> Que existe el Grid
-		<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
-		<strong>Cuando</strong> Pulso 'r'
-    		<strong>Entonces</strong> El Rover cambia su dirección un punto cardinal en el sentido de las agujas del reloj.
+<strong>Escenario 1:</strong> El Rover se mueve hacia adelante
+<strong>Dado</strong> Que existe el Rover
+<strong>Y</strong> Que existe el Grid
+<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
+<strong>Cuando</strong> Pulso 'f'
+<strong>Entonces</strong> El Rover avanza una casilla en el Grid
+<strong>Y</strong> Mantiene su dirección
+<strong>Escenario 2:</strong> El Rover se mueve hacia atrás
+<strong>Dado</strong> Que existe el Rover
+<strong>Y</strong> Que existe el Grid
+<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
+<strong>Cuando</strong> Pulso 'b'
+<strong>Entonces</strong> El Rover retrocede una casilla en el Grid
+<strong>Y</strong> Mantiene su dirección
+<h3><strong>Escenario 3:</strong> El Rover gira a la derecha</h3>
+<strong>Dado</strong> Que existe el Rover
+<strong>Y</strong> Que existe el Grid
+<strong>Y</strong> Que el Rover tiene una posición y una dirección sobre el Grid
+<strong>Cuando</strong> Pulso 'r'
+<strong>Entonces</strong> El Rover cambia su dirección un punto cardinal en el sentido de las agujas del reloj.
 		<strong>Y</strong> Mantiene su posición
 	<strong>Escenario 4:</strong> El Rover gira a la izquierda
 		<strong>Dado</strong> Que existe el Rover
