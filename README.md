@@ -24,7 +24,7 @@ Repetiremos este proceso tantas veces como sea necesario para acabar con las His
 
 <h3><strong>Título:</strong> El piloto mueve el Rover</h3>
 
-**Como** Piloto<br>
+<strong>Como</strong> Piloto<br>
 <strong>Quiero</strong> Mover el Rover en cualquier dirección<br>
 <strong>De Manera Que</strong> Pueda desplazarme en él<br>
 
