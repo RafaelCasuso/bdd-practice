@@ -5,7 +5,7 @@
  * Time: 19:18
  * To change this template use File | Settings | File Templates.
  */
-describe("Conjunto de tests para Rover", function(){
+describe("El Rover", function(){
 
     var rover;
     var grid;
@@ -15,48 +15,48 @@ describe("Conjunto de tests para Rover", function(){
         rover = new Rover(0,10,"N",grid);
     });
 
-    it("Existe el objeto Rover",function(){
+    it("Existe",function(){
         expect(rover).toBeDefined();
     });
-    it("Existe el objeto Grid",function(){
+    it("Tiene un Grid sobre el que desplazarse",function(){
         expect(grid).toBeDefined();
     });
-    it("El objeto Rover esta en posicion y tiene direccion",function(){
+    it("Tiene una posición y una dirección",function(){
         expect(rover.posX).not.toBe(null);
         expect(rover.posY).not.toBe(null);
         expect(rover.direction).not.toBe(null);
     });
-    it("Avanza con comando 'f'",function(){
+    it("Se mueve hacia adelante",function(){
         rover.commands('f');
         expect(rover.posX).toEqual(0);
         expect(rover.posY).toEqual(11);
         expect(rover.direction).toEqual('N');
     });
-    it("Retrocede con comando 'b'",function(){
+    it("Se mueve hacia atrás",function(){
         rover.commands('b');
         expect(rover.posX).toEqual(0);
         expect(rover.posY).toEqual(9);
         expect(rover.direction).toEqual('N');
     });
-    it("Gira a la derecha con comando 'r'",function(){
+    it("Gira a la derecha",function(){
         rover.commands('r');
         expect(rover.posX).toEqual(0);
         expect(rover.posY).toEqual(10);
         expect(rover.direction).toEqual('E');
     });
-    it("Gira a la izquierda con comando 'l'",function(){
+    it("Gira a la izquierda",function(){
         rover.commands('l');
         expect(rover.posX).toEqual(0);
         expect(rover.posY).toEqual(10);
         expect(rover.direction).toEqual('W');
     });
-    it("Gira a la derecha y avanza con comandos 'rf'",function(){
+    it("Gira a la derecha y se mueve hacia adelante",function(){
         rover.commands('rf');
         expect(rover.posX).toEqual(1);
         expect(rover.posY).toEqual(10);
         expect(rover.direction).toEqual('E');
     });
-     it("Vuelve a inicio de eje Y cuando sobrepasa el limite del grid",function(){
+     it("sobrepasa el límite del Grid en el eje Y",function(){
         rover.commands('ff');
         expect(rover.posX).toEqual(0);
         expect(rover.posY).toEqual(0);
