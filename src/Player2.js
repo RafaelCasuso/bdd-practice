@@ -23,7 +23,7 @@ var Rover = function(posX, posY, direction, grid){
         if ((this.direction=="N") || (this.direction=="S"))
         {
             this.posY += (this.direction=="N") ? incremento : -incremento;
-            if (this.posY > grid.height) this.posY = 0;
+            if (this.posY > this.grid.height) this.posY = 0;
         }
         else
         {
@@ -39,11 +39,11 @@ var Rover = function(posX, posY, direction, grid){
         indice = (indice + incremento +4) % 4;
         this.direction = direcciones[indice];
 
-    }
+    };
 
     this.commands = function(arrayComandos){
         var comando;
-        for(i=0;i<arrayComandos.length;i++){
+        for(var i=0;i<arrayComandos.length;i++){
             comando = arrayComandos.substr(i,1);
             switch(comando){
                 case "f":
@@ -67,6 +67,6 @@ var Rover = function(posX, posY, direction, grid){
 var Grid = function(width, height){
     this.width = width;
     this.height = height;
-}
+};
 
 
