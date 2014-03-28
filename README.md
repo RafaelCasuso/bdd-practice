@@ -4,9 +4,12 @@
 
 <h2><strong>¿Qué es BDD?</strong></h2>
 
-Es un proceso de Desarrollo de Software basado en TDD (Test-driven Development) y cuyo acrónimo significa Behaviour-driven
+Es una metodología de Desarrollo de Software basado en TDD (Test-driven Development) y en DDD (Domain-Driven Development) y cuyo acrónimo significa Behaviour-driven
 Development (Desarrollo dirigido por Comportamiento). Sus principales objetivos son la construcción de código con calidad,
 la garantía de cobertura de tests y el cumplimiento de los requisitos funcionales que necesita la parte de negocio.
+
+Algunas de sus características más importantes incluyen:
+- Es una metodología de fuera hacia dentro. Comienza identificando las necesidades de negocio y profundiza hasta el conjunto de características que necesita su implementación.
 
 
 <h2><strong>Primeros Pasos con BDD</strong></h2>
