@@ -10,6 +10,10 @@ la garantía de cobertura de tests y el cumplimiento de los requisitos funcional
 
 Algunas de sus características más importantes incluyen:
 - Es una metodología de fuera hacia dentro. Comienza identificando las necesidades de negocio y profundiza hasta el conjunto de características que necesita su implementación.
+- Sustituye la palabra Prueba por Comportamiento.
+- Aboga por la semántica y el lenguaje natural para los nombres de Clases, Métodos y Pruebas.
+- Utiliza un Lenguaje Común para todos los involucrados en el proceso de desarrollo.
+- Extiende TDD para involucrar en el proceso de desarrollo a Analistas de Negocio, Stakeholders, Testers y Desarrolladores.
 
 
 <h2><strong>Primeros Pasos con BDD</strong></h2>
@@ -23,13 +27,15 @@ después realizamos el código necesario para que ese test sea superado y finalm
 
 Repetiremos este proceso tantas veces como sea necesario para acabar con las Historias de Usuario.
 
-<h2><strong>Historia</strong></h2>
+<h2><strong>Historia de Ejemplo</strong></h2>
+
+Para la Práctica de BDD utilizaremos esta Historia de Ejemplo que define la necesidad de un Rover capaz de moverse sobre un Grid, al estilo de los vehículos exploratorios que se usan en las misiones a Marte.
 
 <h4><strong>Título:</strong> El piloto mueve el Rover</h4>
 
 <strong>Como</strong> Piloto<br>
 <strong>Quiero</strong> Mover el Rover en cualquier dirección<br>
-<strong>De Manera Que</strong> Pueda desplazarme en él<br>
+<strong>De Manera Que</strong> Disponga de un vehículo funcional<br>
 
 <h4><strong>Criterios de Aceptación:</strong></h4>
 <h4><strong>Escenario 1:</strong> El Rover se mueve hacia adelante</h4>
