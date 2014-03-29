@@ -7,6 +7,9 @@ module.exports = function (grunt) {
             server: {
                 options: {
                     port: 9000,
+                    open: {
+                        target: 'http://localhost:9000/SpecRunner.html'
+                    },
                     livereload: true
                 }
             }
@@ -18,21 +21,24 @@ module.exports = function (grunt) {
             bdd: {
                 src: 'src/**/*.js',
                 options: {
-                    specs: 'spec/*.js'
+                    specs: 'spec/*.js',
+                    template: require('grunt-template-jasmine-istanbul'),
+                    templateOptions: {
+                        coverage: 'coverage/coverage.json',
+                        report: 'coverage'
+                    }
                 }
             }
         },
         watch: {
-            all: {
+            bdd: {
                 options: {
                     livereload: true
                 },
+                tasks: ['jasmine'],
                 files: ['**/*.js']
             }
-            //scripts: {
-            //    files: ['**/*.js'],
-            //    tasks: ['requirejs']
-            //}
+
         }
     });
 

@@ -14,20 +14,14 @@ var Rover = function(posX, posY, direction, grid){
     this.direction = direction;
 
     this.mover = function (avanzar){
-        var incremento;
+        var incremento = (avanzar) ? 1: -1;
 
-        if (avanzar)
-            incremento = 1;
-        else incremento = -1;
-
-        if ((this.direction=="N") || (this.direction=="S"))
-        {
-            this.posY += (this.direction=="N") ? incremento : -incremento;
+        if ((this.direction=="N") || (this.direction=="S")){
+            this.posY += incremento;
             if (this.posY > this.grid.height) this.posY = 0;
         }
-        else
-        {
-            this.posX += (this.direction=="E") ? incremento : -incremento;
+        else {
+            this.posX += incremento;
         }
 
     };
