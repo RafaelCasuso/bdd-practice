@@ -38,28 +38,28 @@ describe("El Rover", function(){
         expect(rover.posY).toEqual(9);
         expect(rover.direction).toEqual('N');
     });
-    it("Gira a la derecha",function(){
-        rover.commands('r');
-        expect(rover.posX).toEqual(0);
-        expect(rover.posY).toEqual(10);
-        expect(rover.direction).toEqual('E');
-    });
-    it("Gira a la izquierda",function(){
-        rover.commands('l');
-        expect(rover.posX).toEqual(0);
-        expect(rover.posY).toEqual(10);
-        expect(rover.direction).toEqual('W');
-    });
-    it("Gira a la derecha y se mueve hacia adelante",function(){
-        rover.commands('rf');
-        expect(rover.posX).toEqual(1);
-        expect(rover.posY).toEqual(10);
-        expect(rover.direction).toEqual('E');
-    });
-     it("sobrepasa el límite del Grid en el eje Y",function(){
-        rover.commands('ff');
-        expect(rover.posX).toEqual(0);
-        expect(rover.posY).toEqual(0);
-        expect(rover.direction).toEqual('N');
-    });
+//    it("Gira a la derecha",function(){
+//        rover.commands('r');
+//        expect(rover.posX).toEqual(0);
+//        expect(rover.posY).toEqual(10);
+//        expect(rover.direction).toEqual('E');
+//    });
+//    it("Gira a la izquierda",function(){
+//        rover.commands('l');
+//        expect(rover.posX).toEqual(0);
+//        expect(rover.posY).toEqual(10);
+//        expect(rover.direction).toEqual('W');
+//    });
+//    it("Gira a la derecha y se mueve hacia adelante",function(){
+//        rover.commands('rf');
+//        expect(rover.posX).toEqual(1);
+//        expect(rover.posY).toEqual(10);
+//        expect(rover.direction).toEqual('E');
+//    });
+//     it("sobrepasa el límite del Grid en el eje Y",function(){
+//        rover.commands('ff');
+//        expect(rover.posX).toEqual(0);
+//        expect(rover.posY).toEqual(0);
+//        expect(rover.direction).toEqual('N');
+//    });
 });
